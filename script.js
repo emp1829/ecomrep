@@ -19,3 +19,19 @@ html.onclick = function() {
     this.textContent = listContent;
   }
 }
+
+document.body.appendChild(info);
+document.body.appendChild(list);
+
+html.onclick = function() {
+  var listItem = document.createElement('li1');
+  var listContent = prompt('Benal Jojo1!');
+  listItem.textContent = listContent;
+  list.appendChild(listItem);
+
+  listItem.onclick = function(e) {
+    e.stopPropagation();
+    var listContent = prompt('Injam areeeehhh!?');
+    this.textContent = listContent;
+  }
+}
