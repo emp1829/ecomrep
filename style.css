@@ -1,0 +1,14 @@
+html {
+  background-color: magenta;
+  font-size: 15px;
+}
+
+ul {
+  background: purple;
+  padding: 30px;
+  border: 10px darkblue;
+}
+
+li {
+  margin-left: 1px;
+}
